@@ -4,38 +4,55 @@
     <title> Index </title>
     <!-- CDN link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+p{
+    color: darkred;
+    background-color: burlywood;
+}
+#strong{
+    margin-right: 25px;
+}
+#files{
+    margin-right: 25px;
+}
+#icons{
+    margin-right: 20px;
+}
+    </style>
 </head>
 <body>
     <header>
+      <p>
         <i class="fa fa-user" aria-hidden="true"></i>
-        <strong> Mohit Sharma </strong> &nbsp; &nbsp;
+        <strong id="strong"> Mohit Sharma </strong> 
         <i class="fa fa-phone-square" aria-hidden="true"></i>
-        <strong> 8600245677 </strong> &nbsp; &nbsp;
+        <strong id="strong"> 8600245677 </strong>
         <i class="fa fa-envelope" aria-hidden="true"></i>
         <strong> mohit.sharma@gmail.com </strong>
+    </p>
     </header>
     <br>
     
     <nav>
-        <a href="home.html" target="myFrame"> HOME </a> &nbsp; &nbsp;
-        <a href="personalDetails.html" target="myFrame"> PERSONAL DETAILS </a> &nbsp; &nbsp;
-    <a href="techStack.html" target="myFrame"> TECHSTACK </a> &nbsp; &nbsp;
-    <a href="education.html" target="myFrame"> EDUCATION </a>  &nbsp; &nbsp;
+        <a href="home.html" target="myFrame" id="files"> HOME </a> 
+        <a href="personalDetails.html" target="myFrame" id="files"> PERSONAL DETAILS </a> 
+    <a href="techStack.html" target="myFrame" id="files"> TECHSTACK </a> 
+    <a href="education.html" target="myFrame" id="files"> EDUCATION </a>  
     <a href="conctactUs.html" target="myFrame"> CONTACT US </a> 
     </nav>
 <br> 
     
-<iframe width="1050px" height="600px" name="myFrame">
+<iframe width="1050px" height="600px" name="myFrame" src="home.html">
     </iframe>
     <br>
     <footer>
-        <strong> Follow Me: &nbsp; &nbsp; </strong>
+        <strong id="strong"> Follow Me:  </strong>
         <a href="https://www.instagram.com/" target="_blank">
-        <i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp; &nbsp;
+        <i class="fa fa-instagram" aria-hidden="true" id="icons"></i></a>
         <a href="https://www.google.com/" target="_blank">
-            <i class="fa fa-google" aria-hidden="true"></i></a>&nbsp; &nbsp;
+            <i class="fa fa-google" aria-hidden="true" id="icons"></i></a>
             <a href="https://www.facebook.com/" target="_blank">
-                <i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp; &nbsp;
+                <i class="fa fa-facebook" aria-hidden="true" id="icons"></i></a>
                 <a href="https://in.linkedin.com/" target="_blank">
                     <i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </footer>
